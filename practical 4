@@ -1,0 +1,59 @@
+✅ Objective:
+To model a UML Use Case Diagram and document use case scenarios for the Inventory Management System, showcasing interactions between users and the system.
+
+🔧 What is a Use Case Diagram?
+
+A Use Case Diagram is a type of UML (Unified Modeling Language) diagram that shows:
+
+Actors (users/external systems)
+Use Cases (system functionalities)
+Relationships (how users interact with functionalities)
+It helps in understanding the functional scope of the project.
+
+🧩 Key Actors in the System:
+Shopkeeper – Manages stock and views recommendations.
+Customer – Places orders and checks availability.
+Admin – Manages users and oversees system operations.
+ML Engine (System Actor) – Processes data for prediction.
+✅ Use Cases:
+Upload Sales & Inventory Data
+Forecast Product Demand
+Segment Customers
+Generate Restocking Suggestions
+Place Order
+View Product Availability
+Monitor Inventory System
+Update System Configuration
+📌 Use Case Diagram
+(Drawing coming up just below)
+
+📑 Use Case Scenarios
+🔹 Use Case: Upload Sales & Inventory Data
+
+Actor: Shopkeeper
+Description: The shopkeeper uploads recent sales and current stock data.
+Precondition: Shopkeeper must be logged in.
+Postcondition: Data is stored and passed to ML model.
+🔹 Use Case: Forecast Product Demand
+
+Actor: ML Engine
+Description: Predicts future product demand using past sales data.
+Trigger: After data upload or scheduled interval.
+Postcondition: Prediction results stored for recommendation use.
+🔹 Use Case: Generate Restocking Suggestions
+
+Actor: Inventory System
+Description: Suggests which products need to be reordered and in what quantity.
+Trigger: After demand forecast.
+Postcondition: Suggestions are visible to shopkeeper.
+🔹 Use Case: Place Order
+
+Actor: Customer
+Description: Customer places an order based on available stock.
+Precondition: Items should be in stock.
+Postcondition: Inventory is updated.
+🔹 Use Case: Monitor System
+
+Actor: Admin
+Description: Admin checks usage, logs, and model performance.
+Postcondition: Admin may initiate re-training or system updates.
