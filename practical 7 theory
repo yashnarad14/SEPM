@@ -1,0 +1,34 @@
+✅ Aim:
+To understand and model a Sequence Diagram for an inventory management system using the concepts of objects, lifelines, messages, and interactions between components.
+
+📌 What is a Sequence Diagram?
+A Sequence Diagram is a type of UML diagram that shows how objects interact in a particular time sequence. It focuses on the order of messages exchanged between system components (objects) to carry out a function or process.
+
+🧩 Elements in Sequence Diagrams
+Objects (Participants):
+Represented at the top of the diagram.
+Example: Customer, Shopkeeper, Inventory System, ML Engine, Database
+Lifeline Bars:
+Vertical dashed lines from each object.
+Represent the object's presence over time.
+Activation Bars:
+Narrow rectangles on lifelines.
+Represent the time an object is active or performing a task.
+Messages:
+Arrows that show communication between objects.
+Types: Synchronous (solid arrow), Asynchronous (open arrow), Return (dashed arrow).
+🛒 Use Case Modeled: "Inventory Restock Suggestion Flow"
+Actors:
+
+Shopkeeper
+Inventory System
+ML Engine
+Inventory Database
+Flow:
+
+Shopkeeper uploads sales and stock data.
+Inventory System receives data and passes it to ML Engine.
+ML Engine processes and forecasts demand.
+Inventory System fetches inventory records.
+Based on prediction, system recommends restocking quantities.
+Recommendation is sent back to Shopkeeper.
