@@ -1,0 +1,49 @@
+
+---
+
+## 📅 **Assignment: Project Scheduling for Inventory Management System**
+
+---
+
+### ✅ **Objective:**
+To define a structured project schedule for developing a **Data-Driven Inventory Management System**, including all key phases, timelines, and team responsibilities.
+
+---
+
+## 📘 **Project Title:**
+**Smart Inventory Management using Machine Learning and Predictive Analytics**
+
+---
+
+### 🧩 **Phases of the Project**
+
+| Phase No. | Phase Name                         | Duration      | Description                                                                 |
+|-----------|------------------------------------|---------------|-----------------------------------------------------------------------------|
+| 1         | Requirement Gathering              | 1 week        | Identify system requirements, collect datasets, meet with stakeholders.     |
+| 2         | Feasibility Study & Planning       | 1 week        | Analyze scope, define goals, select ML approach and tech stack.             |
+| 3         | System Design                      | 1.5 weeks     | Design system architecture, data flow diagrams, and database schemas.       |
+| 4         | Data Collection & Preprocessing    | 2 weeks       | Collect historical sales/customer data, clean and format it.                |
+| 5         | ML Model Development               | 2.5 weeks     | Develop and train predictive models (demand forecasting, segmentation).     |
+| 6         | Backend & Inventory Logic          | 2 weeks       | Build inventory handling logic and database connectivity.                   |
+| 7         | Frontend / UI Design               | 1.5 weeks     | Create dashboard/UI for shopkeepers and admin.                              |
+| 8         | Integration of ML & UI             | 1 week        | Integrate predictive insights into the frontend.                            |
+| 9         | Testing & Debugging                | 1 week        | Perform unit and system testing, fix bugs.                                  |
+| 10        | Final Report & Presentation Prep   | 1 week        | Prepare final documentation and project presentation.                       |
+
+---
+
+### 📊 **Total Estimated Duration:**  
+**~14.5 weeks (approx. 3.5 months)**
+
+---
+
+### 📌 **Tools & Technologies:**
+- Python (Pandas, scikit-learn, NumPy)
+- MySQL or Firebase (for inventory database)
+- Flask/Django (backend)
+- React.js / Streamlit (optional for frontend)
+- GitHub (version control)
+- Excel (for Gantt chart/project tracking)
+
+---
+
