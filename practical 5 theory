@@ -1,0 +1,72 @@
+Modelling DFD and CFD for Inventory Management System
+1. Introduction
+
+In this assignment, we model the Data Flow Diagram (DFD) and Control Flow Diagram (CFD) for an inventory management system driven by machine learning and predictive analytics. This system helps optimize stock readiness by analyzing historical data, customer behavior, and shopkeeper patterns.
+
+🔄 Data Flow Diagram (DFD)
+
+A Data Flow Diagram (DFD) visually represents the flow of data within the system, showing how data moves from input to processing and output stages. It focuses on what data flows, where it flows, and how it is stored.
+
+DFD Level 0 (Context Diagram)
+Entities:
+
+Shopkeeper
+Customer
+Admin
+Processes:
+
+Inventory Management System
+Data Stores:
+
+Sales Data
+Inventory Database
+Customer Profiles
+Data Flows:
+
+Shopkeeper inputs stock details, receives recommendations.
+Customers place orders, generating sales data.
+Admin monitors and updates system.
+DFD Level 1: Breakdown
+Processes:
+
+Collect Sales & Inventory Data
+Analyze Data & Forecast Demand
+Segment Customers
+Generate Inventory Recommendations
+Monitor & Update Inventory
+Data Stores:
+
+D1: Sales Data
+D2: Customer Profiles
+D3: Inventory Records
+D4: ML Models/Reports
+Entities:
+
+E1: Shopkeeper
+E2: Customer
+E3: Admin
+✏️ DFD Level 1 Diagram
+
+(Drawing coming right up below)
+
+🔁 Control Flow Diagram (CFD)
+
+A Control Flow Diagram (CFD) shows how control passes through various parts of the system. Unlike DFDs, which focus on data, CFD focuses on conditions, decision logic, and control statements.
+
+Steps in the Control Flow:
+Start
+Login Check – Is the user an Admin, Customer, or Shopkeeper?
+If Admin:
+Monitor system reports
+Update inventory models
+If Shopkeeper:
+Upload stock and sales data
+Receive restocking recommendations
+If Customer:
+View available products
+Make purchases
+System runs ML Models:
+Forecast demand
+Segment customers
+Generate insights
+End
